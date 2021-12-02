@@ -2,27 +2,27 @@ const todoList = [
   {
     index: 1,
     description: 'Dancing',
-    completed: false
+    completed: false,
   },
   {
     index: 2,
     description: 'singimng',
-    completed: false
+    completed: false,
   },
   {
     index: 3,
     description: 'coding',
-    completed: false
+    completed: false,
   },
   {
     index: 4,
     description: 'driving',
-    completed: false
+    completed: false,
   },
   {
     index: 5,
     description: 'cooking',
-    completed: false
+    completed: false,
   },
 ];
 const list = document.getElementById('todo-list');
@@ -38,4 +38,3 @@ todoList.forEach((data) => {
   </div>
   `;
 });
-
