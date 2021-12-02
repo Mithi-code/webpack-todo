@@ -1,61 +1,61 @@
 body {
-    width: 60%;
-    border: 1px solid gray;
-    margin: auto;
-    margin-top: 100px;
+  width: 60%;
+  border: 1px solid gray;
+  margin: auto;
+  margin-top: 100px;
 }
 
 header {
-    height: 50px;
-    background-color: rgb(228, 228, 228);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-top: 1px solid rgb(59, 58, 58);
-    border-bottom: 1px solid gray;
-    padding: 5px;
+  height: 50px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(59, 58, 58);
+  border-bottom: 1px solid gray;
+  padding: 5px;
 }
 
 i {
-    color: rgb(196, 196, 196);
+  color: rgb(196, 196, 196);
 }
 
 header i {
-    padding: 10px;
+  padding: 10px;
 }
 
 .input {
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 5px;
-    height: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  height: 10px;
 }
 section div {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 #todo-list {
-    padding: 0;
+  padding: 0;
 }
 
 .list-info {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .list-info input {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 button {
-    padding: 5px;
-    width: 100%;
-    color: gray;
-    background-color: rgb(228, 228, 228);
-    height: 40px;
-    border: none;
+  padding: 5px;
+  width: 100%;
+  color: gray;
+  background-color: rgb(228, 228, 228);
+  height: 40px;
+  border: none;
 }
