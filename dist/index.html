@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <title>Wbpack Exercise</title>
-<script defer src="/index.bundle.js"></script><script defer src="/print.bundle.js"></script></head>
-<body>
-    <h1>Hello webpack!</h1>
-</body>
+  <script defer src="/index.bundle.js"></script><script defer src="/print.bundle.js"></script></head>
+  <body>
+    <header>
+      <h2>Today's Todo</h2>
+      <i class="fas fa-sync-alt"></i>
+    </header>
+    <section>
+        <div>
+            <input type="text" placeholder="Add to your list..." class="input">
+            <i class="fas fa-arrow-left"></i>
+        </div>
+     <ul id="todo-list">
+     </ul>
+     <button type="button">Clear all completed</button>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>
-
