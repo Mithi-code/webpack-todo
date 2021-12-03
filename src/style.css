@@ -53,11 +53,11 @@ section div {
 }
 
 .checked {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 #rm {
-    display: none;
+  display: none;
 }
 
 button {
