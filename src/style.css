@@ -48,12 +48,26 @@ section div {
   justify-content: space-between;
 }
 
+.edited {
+    background-color: rgb(245, 215, 177);
+}
+
 .list-info input {
   margin-right: 10px;
 }
 
-.checked {
+.checked .text {
   text-decoration: line-through;
+}
+
+.text:focus {
+    font-weight: 700;
+}
+
+.text {
+    background-color: transparent;
+    outline: none;
+    border: none;
 }
 
 #rm {
