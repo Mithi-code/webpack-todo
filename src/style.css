@@ -52,6 +52,14 @@ section div {
   margin-right: 10px;
 }
 
+.checked {
+  text-decoration: line-through;
+}
+
+#rm {
+  display: none;
+}
+
 button {
   padding: 5px;
   width: 100%;
