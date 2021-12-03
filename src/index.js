@@ -1,4 +1,4 @@
-import checkListener from './scripts/check.js'; 
+import checkListener from './scripts/check.js';
 
 const todoList = localStorage.getItem('todoList')
   ? JSON.parse(localStorage.getItem('todoList'))
@@ -12,7 +12,7 @@ function render() {
     list.innerHTML += `
     <hr>
     <div class="list-info" id=${i}>
-    <div class='${data.done ? 'checked' : ""}'>
+    <div class='${data.done ? 'checked' : ''}'>
     <input type="checkbox" class="checkbox" ${data.done ? 'checked' : ''}>
     <li class='text'>${data.value}</li>
     </div>
@@ -22,10 +22,10 @@ function render() {
     </span>
     </div>
     `;
-  checkListener(todoList);
+    checkListener(todoList);
   });
 }
- render ();
+render();
 btn.addEventListener('click', () => {
   todoList.push({
     value: input.value.trim(),
@@ -35,4 +35,3 @@ btn.addEventListener('click', () => {
   localStorage.setItem('todoList', JSON.stringify(todoList));
   render();
 });
-

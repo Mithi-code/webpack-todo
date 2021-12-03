@@ -5,4 +5,4 @@ export default function checkListener(todoList) {
     todoList[v.parentElement.parentElement.id].done = v.checked;
     localStorage.setItem('todoList', JSON.stringify(todoList));
   }));
-};
+}
