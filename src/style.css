@@ -49,11 +49,17 @@ section div {
 }
 
 .edited {
-    background-color: rgb(245, 215, 177);
+  background-color: rgb(245, 215, 177);
 }
 
 .list-info input {
   margin-right: 10px;
+}
+
+.text {
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 .checked .text {
@@ -61,13 +67,7 @@ section div {
 }
 
 .text:focus {
-    font-weight: 700;
-}
-
-.text {
-    background-color: transparent;
-    outline: none;
-    border: none;
+  font-weight: 700;
 }
 
 #rm {
