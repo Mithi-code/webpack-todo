@@ -42,7 +42,7 @@ Open with live server on vscode
 no installations
 
 ## LIVE DEMO
-[View Live Demo](https://mithi-code.github.io/webpack-todo/)
+[View Live Demo]()
 
 
 ## Authors
